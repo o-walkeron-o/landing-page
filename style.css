@@ -8,11 +8,10 @@
 }
 
 .header { 
-    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 200px;
+    padding: 15px 35px;
 }
 
 .header ul { 
@@ -31,10 +30,9 @@
 }
 
 .section-one { 
-    background-color: #1F2937;
     display: flex;
     gap: 20px;
-    padding: 20px 200px 60px 200px;
+    padding: 20px 35px 60px 35px;
     justify-content: space-between;
 }
 
@@ -60,7 +58,7 @@
 }
 
 .section-two { 
-    padding: 0 200px;
+    padding: 0 35px;
     text-align: center;
 }
 
@@ -92,12 +90,11 @@
 }
 
 .section-three { 
-    background-color: #E5E7EB;
-    padding: 50px 200px;
-    text-align: center;
+    padding: 50px 35px;
 }
 
 .section-three-text { 
+    text-align: left;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
@@ -110,7 +107,7 @@
 }
 
 .section-four { 
-    padding: 50px 200px;
+    padding: 50px 35px;
 }
 
 .section-four-bar { 
@@ -144,9 +141,28 @@
 }
 
 .footer { 
-    background-color: #1F2937;
-    padding: 25px 200px;
+    padding: 25px 35px;
     text-align: center;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.background-header,
+.background-section-one,
+.background-footer { 
+    background-color: #1F2937;
+}
+
+.background-section-three { 
+    background-color: #E5E7EB;
+}
+
+.header,
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.footer { 
+    max-width: 1030px;
+    margin: 0 auto;
 }
